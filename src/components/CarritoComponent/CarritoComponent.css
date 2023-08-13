@@ -1,0 +1,30 @@
+/* Carrito de compras */
+
+.containerCarrito {
+    display: flex;
+    align-items: center;
+}
+
+.iconoCarrito {
+    display: flex;
+    background-color: #000;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    border-radius: 50px;
+}
+
+.carritoCompras {
+    height: 100%;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.carritoCompras:hover {
+    background-color: rgb(184, 184, 184);
+}
+
+.carrito {
+    width: 60%;
+}

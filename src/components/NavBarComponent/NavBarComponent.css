@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header  {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    height: 100px;
+    align-items: center;
+}
+
+
+.nombrePagina {
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #198754;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #fff;
+}
