@@ -10,6 +10,9 @@ import ButtonComponent from "../ButtonComponent/ButtonComponent";
 //CarritoComponent
 import CarritoComponent from "../CarritoComponent/CarritoComponent";
 
+//NHardcodeadoComponent
+import NHardcodeadoComponent from "../NHardcodeadoComponent/NHardcodeadoComponent";
+
 const NavBarComponent = () => {
     
     
@@ -17,10 +20,10 @@ const NavBarComponent = () => {
         <header>
             <div className="contenedorNavBar">
                 <ul>
-                    <li><p className="nombrePagina">FranShoes</p></li>
-                    <li><a href="#">Zapatillas</a></li>
-                    <li><a href="#">Buzos</a></li>
-                    <li><a href="#">Camperas</a></li>
+                    <li><p className="nombrePagina">ShoeWave</p></li>
+                    <li><a href="#">Calzado</a></li>
+                    <li><a href="#">Indumentaria</a></li>
+                    <li><a href="#">Accesorios</a></li>
                 </ul>
             </div>
             <div className="containerCarrito">
@@ -39,6 +42,7 @@ const NavBarComponent = () => {
                     </Row>
                 </Form>
                 <CarritoComponent />
+                <NHardcodeadoComponent />
             </div>
         </header>
     )

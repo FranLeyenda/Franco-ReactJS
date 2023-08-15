@@ -1,0 +1,9 @@
+.numeroHardcodeado {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

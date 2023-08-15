@@ -10,14 +10,20 @@ import ButtonComponent from './components/ButtonComponent/ButtonComponent';
 import NavBarComponent from './components/NavBarComponent/NavBarComponent';
 //LineComponent
 import LineComponent from './components/LineComponent/LineComponent'
+//MainComponent
+import CardComponent from './components/CardComponent/CardComponent';
+//MainLayout
+import MainLayout from './layout/MainLayout';
+//CountComponent
+import CountComponent from './components/CountComponent/CountComponent';
 
 function App() {
 
   return (
     <div>
-      <NavBarComponent/>
-      <LineComponent />
-      
+      <MainLayout />
+      <CardComponent />
+      <CountComponent />
     </div>
   )
 }

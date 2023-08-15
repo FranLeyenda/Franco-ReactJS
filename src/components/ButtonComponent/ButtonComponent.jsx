@@ -1,11 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import "./ButtonComponent.css"
 
-const ButtonComponent = ({btnName, btnType}) => {
+const ButtonComponent = ({btnName, btnType,onClickFunction}) => {
     
 
     return (
-        <Button variant={btnType}>{btnName}</Button>
+        <Button variant={btnType} onClick={onClickFunction}>{btnName}</Button>
     )
 }
 
