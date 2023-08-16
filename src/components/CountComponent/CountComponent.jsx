@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ButtonComponent from '../ButtonComponent/ButtonComponent';
+import "./CountComponent.css"
 
 const CountComponent = ()=> {
     
@@ -8,11 +9,13 @@ const CountComponent = ()=> {
     const decrementar = ()=> setCount(count - 1);
 
     return(
-        <div>
-            <h3>Contador</h3>
-            <p>{count}</p>
-            <ButtonComponent onClickFunction={incrementar} btnName="Sumar" btnType="success"/>
-            <ButtonComponent onClickFunction={decrementar} btnName="Restar" btnType="success"/>
+        <div className='containerCount'>
+            <div>
+                <h3>Contador</h3>
+                <p>{count}</p>
+                <ButtonComponent onClickFunction={incrementar} btnName="Sumar" btnType="success"/>
+                <ButtonComponent onClickFunction={decrementar} btnName="Restar" btnType="success"/>
+            </div>
         </div>
     )
 }

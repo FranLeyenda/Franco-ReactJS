@@ -16,14 +16,16 @@ import CardComponent from './components/CardComponent/CardComponent';
 import MainLayout from './layout/MainLayout';
 //CountComponent
 import CountComponent from './components/CountComponent/CountComponent';
+//ItemListComponent
+import ItemListComponent from './components/ItemListComponent/ItemListComponent';
 
 function App() {
 
   return (
     <div>
       <MainLayout />
-      <CardComponent />
-      <CountComponent />
+      <ItemListComponent greeting="Hola"/>
+
     </div>
   )
 }

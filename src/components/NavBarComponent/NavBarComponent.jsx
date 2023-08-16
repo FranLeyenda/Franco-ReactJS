@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 import ButtonComponent from "../ButtonComponent/ButtonComponent";
 
 //CarritoComponent
-import CarritoComponent from "../CarritoComponent/CarritoComponent";
+import CardWidgetComponent from "../CardWidgetComponent/CardWidgetComponent";
 
 //NHardcodeadoComponent
 import NHardcodeadoComponent from "../NHardcodeadoComponent/NHardcodeadoComponent";
@@ -41,7 +41,7 @@ const NavBarComponent = () => {
                         </Col>
                     </Row>
                 </Form>
-                <CarritoComponent />
+                <CardWidgetComponent />
                 <NHardcodeadoComponent />
             </div>
         </header>

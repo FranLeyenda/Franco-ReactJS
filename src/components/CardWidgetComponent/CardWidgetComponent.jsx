@@ -1,6 +1,6 @@
-import "./CarritoComponent.css"
+import "./CardWidgetComponent.css"
 
-const CarritoComponent = () => {
+const CardWidgetComponent = () => {
 
     return(
         <div className="iconoCarrito">
@@ -10,4 +10,4 @@ const CarritoComponent = () => {
     )
 }
 
-export default CarritoComponent;
+export default CardWidgetComponent;
