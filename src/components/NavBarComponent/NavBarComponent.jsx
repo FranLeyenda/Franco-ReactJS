@@ -1,8 +1,10 @@
 import "./NavBarComponent.css"
+import MainRouter from "../../routes/MainRouter";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Link } from "react-router-dom";
 
 //ButtonComponent
 import ButtonComponent from "../ButtonComponent/ButtonComponent";
@@ -20,10 +22,9 @@ const NavBarComponent = () => {
         <header>
             <div className="contenedorNavBar">
                 <ul>
-                    <li><p className="nombrePagina">ShoeWave</p></li>
-                    <li><a href="#">Calzado</a></li>
-                    <li><a href="#">Indumentaria</a></li>
-                    <li><a href="#">Accesorios</a></li>
+                    <li><Link to="/"className="nombrePagina">Tech-Vibe</Link></li>
+                    <li><Link to={"/category/laptops"}>Laptops</Link></li>
+                    <li><Link to={"/category/smartphones"}>Smartphones</Link></li>
                 </ul>
             </div>
             <div className="containerCarrito">

@@ -3,11 +3,10 @@ import NavBarComponent from "../components/NavBarComponent/NavBarComponent";
 import LineComponent from "../components/LineComponent/LineComponent";
 import React from 'react'
 
-const MainLayout = () => {
+const MainLayout = ({children}) => {
   return (
     <div>
-      <NavBarComponent />
-      <LineComponent />
+      {children}
     </div>
   )
 }

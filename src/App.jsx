@@ -1,8 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import react, { useEffect } from 'react';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import axios from 'axios';
 
 //ButtonComponent
 import ButtonComponent from './components/ButtonComponent/ButtonComponent';
@@ -14,19 +13,21 @@ import LineComponent from './components/LineComponent/LineComponent'
 import CardComponent from './components/CardComponent/CardComponent';
 //MainLayout
 import MainLayout from './layout/MainLayout';
-//CountComponent
-import CountComponent from './components/CountComponent/CountComponent';
 //ItemListComponent
 import ItemListComponent from './components/ItemListComponent/ItemListComponent';
+//Home
+import Home from './pages/Home';
+//ArrayComponent
+import ArrayComponent from './components/ArrayComponent/ArrayComponent';
+//MainRouter
+import MainRouter from './routes/MainRouter';
 
 function App() {
 
   return (
-    <div>
-      <MainLayout />
-      <ItemListComponent greeting="Hola"/>
-
-    </div>
+    <MainLayout>
+      <MainRouter />
+    </MainLayout>
   )
 }
 
